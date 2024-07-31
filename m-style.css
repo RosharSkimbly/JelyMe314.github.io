@@ -68,7 +68,7 @@ html,body{
   position: relative;
   text-align: left;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow .15s,transform .15s,height 0.5s, opacity 0.5s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

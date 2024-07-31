@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="m-style.css">
+  </head>
+  <body>
+    <div id="menuholder" class="full-screen centre-content column">
+        <button class="button-30" role="button" onclick="MenuClick(0, this)">Verbal-Linguistic</button>
+        <button class="button-30" role="button" onclick="MenuClick(1, this)">Visual-Spatial</button>
+        <button class="button-30" role="button" onclick="MenuClick(2, this)">Logical-Mathematical</button>
+        <button class="button-30" role="button" onclick="MenuClick(3, this)">Musical</button>
+        <button class="button-30" role="button" onclick="MenuClick(4, this)">Interpersonal</button>
+        <div id="main-content">
+            <div class="top-right">
+                <button class="button-30" role="button" onclick="CloseMainContent()">X</button>
+            </div>
+        </div>
+        <button class="button-30" role="button" onclick="MenuClick(5, this)">Intrapersonal</button>
+        <button class="button-30" role="button" onclick="MenuClick(6, this)">Naturalistic</button>
+        <button class="button-30" role="button" onclick="MenuClick(7, this)">Kinesthetic</button>
+    </div>
+	<script src="mobile.js"></script>
+  </body>
+</html>
