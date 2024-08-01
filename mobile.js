@@ -1,6 +1,6 @@
 isOpen = false
 
-function MenuClick(index, object){
+function MenuClick(object){
     if(isOpen){
         CloseMainContent();
     }else{
@@ -8,6 +8,7 @@ function MenuClick(index, object){
         if(object.innerHTML.indexOf(" ") != -1) return;
         object.innerHTML = " ".repeat(object.id.length/2) + "X" + " ".repeat(object.id.length/2);
         content = document.getElementById("main-content");
+        document.getElementById("content-header").innerText = object.id; 
         parent = content.parentNode;
         parent.childNodes.forEach(node => {
             node.style = "opacity: 0; height:0vh; margin:0;";

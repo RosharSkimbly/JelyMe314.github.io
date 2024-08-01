@@ -1,3 +1,149 @@
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915253acb6777c922d50b_SuisseIntl-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915256647ecf17146eef1_SuisseIntl-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525c63b6665bf1f98a5_SuisseIntl-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525c19e76be57ceb294_SuisseIntl-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525f8bf850f893d0a72_SuisseIntl-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl book';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915253acb6777c922d50b_SuisseIntl-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl book';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/6459152552c1e9ffc4c6c143_SuisseIntl-BookItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915251c51a89ad215c101_SuisseIntl-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915254501f69ee965613d_SuisseIntl-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915251eb9a51dd774a244_SuisseIntl-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525eaab7f97d9e09e40_SuisseIntl-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525881aae1173fe116e_SuisseIntl-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525fc639083f8358171_SuisseIntl-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/6459152576ac15597594e3b8_SuisseIntl-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525a302d8a78e2ec532_SuisseIntl-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/645915254c0927edadbaf8be_SuisseIntl-Ultralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/6459152544edde9dd3fefdaf_SuisseIntl-UltralightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Suisseintl';
+  src: url('https://uploads-ssl.webflow.com/6458f30fed157c01444bd0b2/64591525eaab7f269ce09e44_SuisseIntl-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/*------------------------------------------------------------------------------------*/
+
 html,body{
     overflow: hidden;
     margin:0;
@@ -26,7 +172,8 @@ html,body{
 
 #main-content{
     overflow: hidden;
-    display:block;
+    display:flex;
+    flex-direction: column;
     opacity: 0;
     width: 70vw;
     height:0vh;
@@ -37,6 +184,16 @@ html,body{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(77, 77, 77, 0.3);
+    text-align: center;
+    justify-content: baseline;
+    align-items: center;
+    color:white;
+}
+
+p{
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(179, 179, 179);
+  width: 90%;
 }
 
 .top-right{
@@ -53,7 +210,14 @@ html,body{
   width:100%;
 }
 
-/* CSS */
+#content-header{
+  color:white;
+  font-family: Suisseintl;
+  text-align: center;
+  padding: 0 10vw;
+}
+
+/* STOLEN BUT COOL */
 .button-30 {
   margin-top:10px;
   align-items: center;
