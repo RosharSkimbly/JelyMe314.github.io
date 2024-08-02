@@ -10,5 +10,29 @@
     "Logical-Mathematical":{
         "ImageSrcs":[],
         "Text":"Number three"
+    },
+    "Musical":{
+        "ImageSrcs":[],
+        "Text":"Number four"
+    },
+    "Interpersonal":{
+        "ImageSrcs":[],
+        "Text":"Number 5"
+    },
+    "Intrapersonal":{
+        "ImageSrcs":[],
+        "Text":"Number 6"
+    },
+    "Naturalistic":{
+        "ImageSrcs":[],
+        "Text":"Number 7"
+    },
+    "Kinesthetic":{
+        "ImageSrcs":[],
+        "Text":"Number 8"
+    },
+    "+ Existential":{
+        "ImageSrcs":[],
+        "Text":"Number 9"
     }
 }
